@@ -1,0 +1,15 @@
+python_source : Source folder
+
+Copy all files and folder to c:\windows folder
+ - thin_con            (folder - for Remote Control)
+ - thin_view           (folder - for Remote View)
+ - auto_start.bat      (- turn off UAC
+                        - open firewall for thinvnc.exe and xenit.exe
+                        - execute xenit.exe when windwows started)
+ - thinvnc_starter.exe (selector to remote control or view from xenit.exe socket client)
+ - web_cli.exe         (connect to other computer for viewing only)
+ - xenit.exe           (socket client)
+
+Execute auto_start.bat as administrator
+
+

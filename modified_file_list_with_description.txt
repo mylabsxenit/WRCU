@@ -1,0 +1,14 @@
+It was modified as follows (from original source of ThinVNC)
+
+web\css\main.css (original source)
+
+#toolbar 
+top:0px => top:-50px (Remove top button UI)
+
+
+web\index.html (original source)
+
+(Remark below line. To execute connect() function directly without connect button)
+controlMode
+checked="checked"
+
